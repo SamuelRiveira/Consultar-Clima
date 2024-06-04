@@ -10,7 +10,7 @@ function consultarAPI(){
   
 
 
-    url = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apiKey + "&units=metric";
+    url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apiKey + "&units=metric";
 
     xhr = new XMLHttpRequest();
     xhr.onload = function(){
